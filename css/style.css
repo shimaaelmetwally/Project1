@@ -1,0 +1,201 @@
+body {
+	background-image: url(../images/bg.jpg);
+	background-repeat:no-repeat;
+	background-attachment: fixed; 
+	background-position: center;
+	background-size: cover;
+
+}
+/*to design the block of conent*/
+.all-site {
+	margin: auto;
+	background-position: center;
+	background-color: #10100a;
+	width: 1300px;
+	height: all;
+	 
+}
+/*style of link*/
+.link {
+text-align: center;
+font-family: Arial;
+ line-height: 1px;
+ margin: auto;
+ padding: 50px;
+}
+/*to remove underline*/
+.link a {
+text-decoration: none;
+color: white;
+font-size: large;
+
+}
+/*to style title "caminar"*/
+.link h1 {
+ font-size: 80px;
+}
+/*style of "by templated"*/
+.link span {
+
+}
+/*style of image 1*/
+.image {
+	display: block;
+	margin: auto;
+	width: 1300px;
+	height: auto;
+}
+/*style of title one */
+.title {
+ width: auto;
+ height: 100px;
+ background-color: white;
+ padding: 50px 100px;
+ font-family: verdana;
+ margin: auto;
+}
+.title h2 {
+	color: black;
+	text-align: center;
+	/*border: 10px solid gray bottom;*/
+}
+.title hr {
+	padding: 0px 50px 0px;
+	width: 50px;
+	color: #f2f2f2;
+	height: 0.25px;
+	margin: auto;
+}
+.title p {
+	text-align: center;
+	color: gray;
+	font-size: 12px;
+	letter-spacing: 2px;
+
+}
+/*style of paragraph one*/ 
+.pharos-1 {
+	background-color: #f5f5f0;
+	width: auto;
+	display: block;
+	height: 500px;
+
+}
+.pharos-1 p {
+	margin: auto;
+	padding: 100px 100px 100px 100px;
+	color: gray;
+	direction: ltr;
+	font-family: verdana;
+	line-height: 30px;
+	 
+}
+/*style of pharos-2*/
+.pharos-2 {
+	 margin: auto;
+	 padding: 100px 100px ;
+}
+.section-one-of-pharos-2 {
+ width: auto;
+ height: 100px;
+ background-color: black;
+ padding: 50px 100px;
+ font-family: verdana;
+ line-height: 10px
+}
+.section-one-of-pharos-2 h2 {
+	color: white;
+	text-align: center;
+	border: 10px solid gray bottom;
+}
+.section-one-of-pharos-2 hr {
+	padding: 0px 50px 0px;
+	width: 50px;
+	color: #f5f5f0;
+	height: 0.25px;
+	margin: auto;
+}
+.section-one-of-pharos-2 p {
+	text-align: center;
+	color: gray;
+	font-size: 12px;
+	letter-spacing: 2px;
+}
+.section-two-of-pharos-2 { 
+ margin: auto; 
+}
+ .block-1 {
+ 	display: flex;
+ 	height: 500px;
+    background-color: #f5f5f0;
+    font-family: verdana;
+ }
+.section-block-1 {
+	margin: auto;
+	padding: 50px 50px 50px 50px;
+	 
+}
+.section-block-1 p {
+	color: gray;
+} 
+.block-2 {
+ 	display: flex;
+ 	height: 500px;
+    background-color: #10100a;
+    font-family: verdana;
+
+ }
+.section-block-2 {
+	margin: auto;
+	padding: 50px 50px 50px 50px;
+	 
+}
+.section-block-2 p {
+	color: gray;
+	direction: rtl;
+}
+.section-block-2 h3 {
+	color: white;
+	direction: rtl;
+}
+.section-block-2 image {
+	 width: 500px;
+}
+.block-3 {
+ 	display: flex;
+ 	height: 500px;
+    background-color: #f5f5f0;
+    font-family: verdana;
+ }
+.section-block-3 {
+	margin: auto;
+	padding: 50px 50px 50px 50px;
+	 
+}
+.section-block-3 p {
+	color: gray;
+} 
+footer {
+	margin: 100px 100px 100px 100px;
+	text-align: center;
+    color: rgba(255, 255, 255, 0.75);
+    line-height: 50px;
+}
+ 
+.icons li {
+	list-style: none;
+	text-decoration: none;
+	margin: auto;
+	display: inline;
+	font-size: 30px;
+	padding: 10px 10px ;
+	border :none;
+	text-align: center;
+	
+}
+.copyright a {
+	color: rgba(255, 255, 255, 0.75);
+}
+.icons i {
+	color: rgba(255, 255, 255, 0.75);
+}
